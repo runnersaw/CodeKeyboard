@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BC650D961C5E9A0B00B7DFF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC650D951C5E9A0B00B7DFF6 /* AppDelegate.swift */; };
 		BC650D981C5E9A0B00B7DFF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC650D971C5E9A0B00B7DFF6 /* ViewController.swift */; };
-		BC650D9B1C5E9A0B00B7DFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC650D991C5E9A0B00B7DFF6 /* Main.storyboard */; };
 		BC650D9D1C5E9A0B00B7DFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC650D9C1C5E9A0B00B7DFF6 /* Assets.xcassets */; };
 		BC650DA01C5E9A0B00B7DFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC650D9E1C5E9A0B00B7DFF6 /* LaunchScreen.storyboard */; };
 		BC650DAB1C5E9A0C00B7DFF6 /* CodeKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC650DAA1C5E9A0C00B7DFF6 /* CodeKeyboardTests.swift */; };
@@ -37,7 +36,6 @@
 		BC650D921C5E9A0B00B7DFF6 /* CodeKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC650D951C5E9A0B00B7DFF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC650D971C5E9A0B00B7DFF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC650D9A1C5E9A0B00B7DFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC650D9C1C5E9A0B00B7DFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC650D9F1C5E9A0B00B7DFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC650DA11C5E9A0B00B7DFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			children = (
 				BC650D951C5E9A0B00B7DFF6 /* AppDelegate.swift */,
 				BC650D971C5E9A0B00B7DFF6 /* ViewController.swift */,
-				BC650D991C5E9A0B00B7DFF6 /* Main.storyboard */,
 				BC650D9C1C5E9A0B00B7DFF6 /* Assets.xcassets */,
 				BC650D9E1C5E9A0B00B7DFF6 /* LaunchScreen.storyboard */,
 				BC650DA11C5E9A0B00B7DFF6 /* Info.plist */,
@@ -231,7 +228,6 @@
 			files = (
 				BC650DA01C5E9A0B00B7DFF6 /* LaunchScreen.storyboard in Resources */,
 				BC650D9D1C5E9A0B00B7DFF6 /* Assets.xcassets in Resources */,
-				BC650D9B1C5E9A0B00B7DFF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BC650D991C5E9A0B00B7DFF6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC650D9A1C5E9A0B00B7DFF6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC650D9E1C5E9A0B00B7DFF6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -400,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CodeKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sawyervaughan.CodeKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CodeKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sawyervaughan.CodeKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
